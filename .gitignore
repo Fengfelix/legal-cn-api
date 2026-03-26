@@ -1,0 +1,12 @@
+config.py
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+.vscode/
+data/
+.env
+*.log
+
+# SSH keys
+utils/*key_git*

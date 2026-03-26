@@ -1,0 +1,28 @@
+# Configuration
+# Copy this file to config.py and fill in your credentials
+
+# Meilisearch
+MEILISEARCH_HOST = "http://localhost:7700"
+MEILISEARCH_MASTER_KEY = "masterKey"
+
+# Server
+HOST = "0.0.0.0"
+PORT = 8000
+
+# Payment - x402 (USDC on Base)
+X402_ENABLED = False
+X402_WALLET_PRIVATE_KEY = ""  # your private key here
+X402_WALLET_ADDRESS = ""  # your address here
+
+# Payment - L402 (Lightning)
+L402_ENABLED = False
+L402_ENDPOINT = ""
+L402_MACAROON = ""  # your macaroon here
+
+# Rate limiting
+MAX_REQUESTS_PER_MINUTE = 60  # 限流，防止打爆服务器
+
+# Pricing
+# Price per request in *micro-USDC* (1 USDC = 1,000,000 micro-USDC)
+# 0.001 USDC = 1000 micro-USDC ≈ 0.007 CNY per search
+PRICE_PER_REQUEST = 1000  # micro-USDC
