@@ -125,6 +125,12 @@ pm2 start uvicorn --name legal-cn-api -- main:app --host 0.0.0.0 --port 8000
 
 后续每月从中国人大网更新新增/修改法律。
 
+## 🔗 Payment
+
+- **Blockchain**: Base (eip155:8453)
+- **Currency**: USDC
+- **Recipient address**: `0xA8496188996F5153859E7BFF97Ce7CC4C53C9539`
+
 ## 🔗 Related Projects
 
 - This service is registered on [Agentverse](https://agentverse.ai/) as `Asaking` at address:  
